@@ -7,7 +7,6 @@ def stringparse():
 		
 	if string == 'https://www.cncpts.com/':
 		print("We currently don't support Concepts account creation as they require a captcha.")
-		exit()
 
 	try:
 		start = string.find('www.') + len('www.')
